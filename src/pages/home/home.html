@@ -1,0 +1,78 @@
+<ion-header>
+    <ion-navbar color="dark">
+        <button ion-button menuToggle side="left">
+      <img src="img/logo.svg">
+    </button>
+        <ion-title>LuluMoney</ion-title>
+        <button ion-button icon-only menuToggle end side="right">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <div color="dark" style="height:30%;background: #2b3243;color:#fff;">
+        <ion-list color="primary" padding>
+            <ion-item class="listitemstyle">
+                <div class="row">
+                    <div class="col col-10">AED<img src="img/AED-flag.svg" class="flagimg"></div>
+                    <div class="col">
+                        <h3 item-right>1000</h3>
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+        <ion-list color="primary" padding style="margin-top: -47px;">
+            <ion-item class="listitemstyle">
+                <div class="row">
+                    <div class="col col-10">INR
+                        <img src="img/Flag-of-India.jpg" class="flagimg"></div>
+                    <div class="col">
+                        <h3 item-right>18,351.78</h3>
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+    </div>
+    <div class="panel gold">
+        <p class="centernotifystyle">1 AED = 18.351 INR <img src="img/notification.svg"></p>
+        <div class="shape">
+            <div class="round-blue">
+                <img class="centerimage" src="img/useradd.svg">
+            </div>
+        </div>
+    </div>
+
+    <ion-grid style="margin-top:3px;">
+        <ion-row class="menuitemsstyle">
+            <ion-col (click)="navigateytransfer()">
+                <img class="iconimage" src="img/mytransfers.png">
+                <p>My Transfers</p>
+            </ion-col>
+            <ion-col (click)="navigateRecipients()">
+                <img class="iconimage" src="img/recipients.png">
+                <p>Recipients</p>
+            </ion-col>
+        </ion-row>
+        <ion-row class="menuitemsstyle">
+            <ion-col>
+                <img class="iconimage" src="img/paybill.png">
+                <p>Pay Bills</p>
+            </ion-col>
+            <ion-col>
+                <img class="iconimage" src="img/mobiletopups.png">
+                <p>Mobile Topups</p>
+            </ion-col>
+        </ion-row>
+        <ion-row class="menuitemsstyle">
+            <ion-col>
+                <img class="iconimage" src="img/forexrates.png">
+                <p>Forex Rates</p>
+            </ion-col>
+            <ion-col>
+                <img class="iconimage" src="img/reminders.png">
+                <p>Reminders</p>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

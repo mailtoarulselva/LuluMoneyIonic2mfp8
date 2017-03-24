@@ -1,0 +1,40 @@
+page-detailsconfirm {
+    .blockstyle {
+        background: linear-gradient(#1a9df9, #00bfe3);
+        color: white;
+        height: 40%;
+        text-align: center;
+    }
+    .centerimage {
+        width: 97px;
+        height: 104px;
+    }
+    .centercontent {
+        margin-left: 6%;
+        padding-top: 7%;
+    }
+    .flagimg {
+        width: 15px;
+        height: 10px;
+    }
+    .detailscontent {
+        margin-top: -33vh;
+        margin-left: 3vh;
+        margin-right: 4vh;
+        height: auto;
+        background: white;
+        width: 90%;
+    }
+    .nextdetailscontent {
+        margin-top: -2vh;
+        margin-left: 3vh;
+        margin-right: 4vh;
+        height: auto;
+        background: white;
+        width: 89.5%;
+    }
+    .labelstyle {
+        color: #778aa2;
+        font-size: small;
+    }
+}

@@ -1,0 +1,104 @@
+page-home {
+    .listitemstyle {
+        background: #00bfe3;
+        color: #fff;
+        border-radius: 2px;
+    }
+    .flagimg {
+        width: 15px;
+        height: 10px;
+    }
+    .centernotifystyle {
+        text-align: center;
+        color: #778aa2;
+        padding: 2px;
+    }
+    .iconimage {
+        width: 23px;
+        height: 23px;
+    }
+    .panel {
+        margin-bottom: 2em;
+        width: 100%;
+        background: #2b3243;
+        position: relative;
+        margin-top: -2em;
+        padding-bottom: 3.5em;
+    }
+    .panel:first-child {
+        margin-top: 0;
+    }
+    .shape {
+        margin-left: 39%;
+        width: 79px;
+        z-index: 1;
+        background: #2b3243;
+        ;
+        height: 76px;
+        -webkit-transform: rotate(45deg);
+        border-radius: 23px;
+        position: absolute;
+        bottom: -26px;
+    }
+    .shape:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 20px;
+        height: 79px;
+        border-radius: 70px;
+        border: 12px solid #2b3243;
+        border-top-width: 0;
+        border-left-width: 0;
+        -webkit-transform: rotate(225deg);
+        border-bottom-width: 0;
+        top: 39px;
+        left: -22px;
+        clip: rect(11px 90px 93px 0px);
+    }
+    .shape:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 20px;
+        height: 79px;
+        border-radius: 70px;
+        border: 12px solid #2b3243;
+        ;
+        border-top-width: 0;
+        border-right-width: 0;
+        -webkit-transform: rotate(45deg);
+        border-bottom-width: 0;
+        top: -46px;
+        left: 62px;
+        clip: rect(11px 90px 93px 0px);
+    }
+    .round-blue {
+        background: #387ef5;
+        border-radius: 100%;
+        margin-top: 8px;
+        margin-right: 5px;
+        /* margin-left: 0px; */
+        width: 50px;
+        height: 50px;
+        margin-left: 17%;
+        -webkit-transform: rotate(0deg);
+    }
+    .centerimage {
+        margin-top: 11px;
+        margin-left: 16px;
+        width: 30px;
+        height: 35px;
+    }
+    .menuitemsstyle {
+        font-family: roboto;
+        font-size: 10.5pt;
+        color: #778aa2;
+        text-align: center;
+        padding: 15px;
+    }
+    .rowstyle {
+        text-align: center;
+        padding: 18px;
+    }
+}
